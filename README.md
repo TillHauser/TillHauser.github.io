@@ -1,2 +1,1 @@
-# TillHauser.github.io
-Personal website and portfolio of Till Hauser
+Personal website and portfolio of Till Hauser - Coming soon!
