@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homepage of Till Hauser</title>
+
+    <meta
+        name="description"
+        content="Personal website of Till Hauser."
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Site navigation -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="site-title">Till Hauser</a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="cv.html" class="nav-link">CV</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="talks.html" class="nav-link">Talks</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main Layout -->
+    <div class="page-layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="profile">
+
+                <div class="profile-image">
+                    <img src="images/face.jpg" alt="">
+                </div>
+
+                <h1 class="profile-name">
+                    Till Hauser
+                </h1>
+
+                <p class="profile-role">
+                    Mathematician
+                </p>
+
+                <p class="profile-description">
+                    Interested in dynamical systems, probability theory, statistical
+                    modeling, and computational methods.
+                </p>
+
+                <div class="profile-links">
+
+                    <a href="mailto:hauser.math@mail.de">
+                        <i class="fa-solid fa-envelope link-icon"></i>
+                        Email
+                    </a>
+
+                    <a href="https://github.com/TillHauser"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-github link-icon"></i>
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/till-hauser-2a17a729b/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin link-icon"></i>
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content" id="home">
+
+
+
+            <!-- Projects -->
+            <section class="content-section" id="projects">
+
+                <div class="section-heading">
+                    <h2>Projects</h2>
+                </div>
+
+                <article class="project">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Probability Distributions
+                        </h3>
+
+                        <p>
+                            A collection of Jupyter Notebooks
+                            exploring probability distributions,
+                            their properties, simulations,
+                            and visualizations.
+                        </p>
+
+                        <div class="talk-tags">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>SciPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+
+                        <a href="https://github.com/TillHauser/Probability-Distributions"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            View project <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!--
+                <article class="project">
+
+                    <div class="project-number">02</div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Computational Modeling
+                        </h3>
+
+                        <p>
+                            Exploring mathematical models through
+                            numerical experiments, Monte Carlo
+                            methods, and computational simulations.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Simulation</span>
+                            <span>Numerical Methods</span>
+                        </div>
+
+                        <a href="#"
+                           class="project-link">
+                            Coming soon
+                        </a>
+
+                    </div>
+
+                    -->
+
+                </article>
+
+            </section>
+
+
+
+            <!-- Footer -->
+            <footer class="site-footer">
+
+                <a href="mailto:hauser.math@mail.de"
+                   class = "footer-link">
+                    <i class="fa-solid fa-envelope link-icon"></i>
+                    Email
+                </a>
+
+                <a href="https://github.com/TillHauser"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class = "footer-link">
+                    <i class="fa-brands fa-github link-icon"></i>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/till-hauser-2a17a729b/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class = "footer-link">
+                    <i class="fa-brands fa-linkedin link-icon"></i>
+                    LinkedIn
+                </a>
+
+                <p>
+                    © <span id="current-year"></span>
+                    Till Hauser
+                </p>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

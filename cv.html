@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homepage of Till Hauser</title>
+
+    <meta
+        name="description"
+        content="Personal website of Till Hauser."
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Site navigation -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="site-title">Till Hauser</a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="cv.html" class="nav-link active">CV</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="talks.html" class="nav-link">Talks</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main Layout -->
+    <div class="page-layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="profile">
+
+                <div class="profile-image">
+                    <img src="images/face.jpg" alt="">
+                </div>
+
+                <h1 class="profile-name">
+                    Till Hauser
+                </h1>
+
+                <p class="profile-role">
+                    Mathematician
+                </p>
+
+                <p class="profile-description">
+                    Interested in dynamical systems, probability theory, statistical
+                    modeling, and computational methods.
+                </p>
+
+                <div class="profile-links">
+
+                    <a href="mailto:hauser.math@mail.de">
+                        <i class="fa-solid fa-envelope link-icon"></i>
+                        Email
+                    </a>
+
+                    <a href="https://github.com/TillHauser"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-github link-icon"></i>
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/till-hauser-2a17a729b/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin link-icon"></i>
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content" id="home">
+
+            <!-- CV -->
+            <section class="content-section" id="cv">
+
+                <!--
+                <p class="eyebrow">EXPERIENCE & EDUCATION</p>
+                    -->
+                <h2>Curriculum Vitae</h2>
+
+
+                <a href="files/cv.pdf"
+                   target="_blank"
+                   class="text-link">
+                    Open PDF of CV↗
+                </a>
+
+                <!--
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-date">
+                            2024 — 2026
+                        </span>
+
+                        <div>
+                            <h3>Research Fellow</h3>
+                            <p>
+                                Pontificia Universidad Católica de Chile
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-date">
+                            2022 — 2024
+                        </span>
+
+                        <div>
+                            <h3>Postdoctoral Research</h3>
+                            <p>
+                                Max Planck Institute for Mathematics
+                                and German Aerospace Center (DLR)
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-date">
+                            2017 — 2021
+                        </span>
+
+                        <div>
+                            <h3>PhD in Mathematics</h3>
+                            <p>
+                                Friedrich Schiller University Jena
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                -->
+
+
+
+
+            </section>
+
+
+            <!-- Footer -->
+            <footer class="site-footer">
+
+                <a href="mailto:hauser.math@mail.de"
+                   class = "footer-link">
+                    <i class="fa-solid fa-envelope link-icon"></i>
+                    Email
+                </a>
+
+                <a href="https://github.com/TillHauser"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class = "footer-link">
+                    <i class="fa-brands fa-github link-icon"></i>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/till-hauser-2a17a729b/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class = "footer-link">
+                    <i class="fa-brands fa-linkedin link-icon"></i>
+                    LinkedIn
+                </a>
+
+                <p>
+                    © <span id="current-year"></span>
+                    Till Hauser
+                </p>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

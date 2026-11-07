@@ -1,28 +1,192 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Till Hauser</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-    h1 { font-size: 2em; }
-    p { font-size: 1em; color: #666; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homepage of Till Hauser</title>
+
+    <meta
+        name="description"
+        content="Personal website of Till Hauser."
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
-  <div>
-    <h1>Coming Soon!</h1>
-    <p>My personal website is under construction.<br>
-       Stay tuned for more!</p>
-  </div>
+
+    <!-- Site navigation -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="site-title">Till Hauser</a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+                <a href="index.html" class="nav-link active">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="cv.html" class="nav-link">CV</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="talks.html" class="nav-link">Talks</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main Layout -->
+    <div class="page-layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="profile">
+
+                <div class="profile-image">
+                    <img src="images/face.jpg" alt="">
+                </div>
+
+                <h1 class="profile-name">
+                    Till Hauser
+                </h1>
+
+                <p class="profile-role">
+                    Mathematician
+                </p>
+
+                <p class="profile-description">
+                    Interested in dynamical systems, probability theory, statistical
+                    modeling, and computational methods.
+                </p>
+
+                <div class="profile-links">
+
+                    <a href="mailto:hauser.math@mail.de">
+                        <i class="fa-solid fa-envelope link-icon"></i>
+                        Email
+                    </a>
+
+                    <a href="https://github.com/TillHauser"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-github link-icon"></i>
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/till-hauser-2a17a729b/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin link-icon"></i>
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content" id="home">
+
+            <!-- About -->
+            <section class="content-section" id="about">
+                <!--
+                <p class="eyebrow">
+                    MATHEMATICS · STATISTICS · COMPUTING
+                </p>
+                -->
+
+                <h2>
+                    About me
+                </h2>
+
+                <p class = "intro">
+                    I am a mathematician with a background in dynamical systems, probability theory and topology.
+                    My work lies at the intersection of mathematical theory,
+                    statistical modeling, and computational methods.
+                </p>
+
+                <p class = "intro">
+                    Throughout my academic career, I have explored problems in ergodic theory,
+                    topological dynamics, and mathematical physics.
+
+                    I enjoy both the abstract development of mathematical ideas
+                    and their translation into concrete models and simulations.
+                </p>
+                <p class = "intro">
+                    At the German Aerospace Center (DLR) in Cologne, I work on Python-based
+                    simulations of materials science problems and the mathematical analysis of the underlying models.
+
+                    From 2024 to 2026, I took a research leave to pursue an independently acquired project
+                    funded by the German Research Foundation (DFG) through the Walter Benjamin Programme at the
+                    Pontificia Universidad Católica de Chile in Santiago.
+
+                    Before joining the DLR, I was a postdoctoral researcher at the
+                    Max Planck Institute for Mathematics in Bonn.
+                </p>
+                <p class = "intro">
+                    My PhD research at Friedrich Schiller University Jena focused on extending
+                    classical entropy theory — a framework for quantifying dynamical
+                    complexity — to the study of long-range order in materials and mathematical quasicrystals.
+                </p>
+                <p class = "intro">
+                    I have been passionate about software development since my youth, beginning with the independent development of simulation software for Fraunhofer IVV during my school years.
+                </p>
+                <p class = "intro">
+                    In my free time, I enjoy hiking and making music. I play the saxophone and guitar.
+                </p>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="site-footer">
+
+                <a href="mailto:hauser.math@mail.de"
+                   class = "footer-link">
+                    <i class="fa-solid fa-envelope link-icon"></i>
+                    Email
+                </a>
+
+                <a href="https://github.com/TillHauser"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class = "footer-link">
+                    <i class="fa-brands fa-github link-icon"></i>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/till-hauser-2a17a729b/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class = "footer-link">
+                    <i class="fa-brands fa-linkedin link-icon"></i>
+                    LinkedIn
+                </a>
+
+                <p>
+                    © <span id="current-year"></span>
+                    Till Hauser
+                </p>
+
+            </footer>
+
+        </main>
+
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,747 @@
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2026</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">September</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Mean Equicontinuity and Related Properties in Hyperspace and Measure Dynamics
+                                </h3>
+                                <p class="talk-event">
+                                    Dynamical Systems Seminar 
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Jagiellonian University, Kraków, Poland</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">September</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Mean Diameter, Regularity and Diam-Mean Equicontinuity
+                                </h3>
+                                <p class="talk-event">
+                                    Chilean-Polish Mathematical Meeting
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    <span>Polish Mathematical Society and Sociedad de Matemática de Chile</span>
+                                    <span><i class="fa-solid fa-map-pin"></i> Uniwersytet Wrocławski, Wrocław, Poland</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Versions of the Frederickson-Andersen model
+                                </h3>
+                                <p class="talk-event">
+                                    SPP2265 Random Geometric Systems 5th Annual Conference
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    <span>Weierstrass Institute for Applied Analysis (WIAS) and German Aerospace Center (DLR)</span>
+                                    <span>Online (Cologne, Germany)</span>
+                                    <span>Conference </span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2025</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">December</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Mean Diameter, Regularity and Diam-Mean Equicontinuity
+                                </h3>
+                                <p class="talk-event">
+                                    Dynamics in Patagonia: Celebrating Alejandro Maass' 60th Birthday
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Puerto Natales, Chile</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">December</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    The maximal mean equicontinuous factor via regional mean sensitivity
+                                </h3>
+                                <p class="talk-event">
+                                    Dynamical Days
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Santiago de Chile, Chile</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">August</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Structural Insights into Topo-Isomorphism
+                                </h3>
+                                <p class="talk-event">
+                                    Oberseminar
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Bergische Universität, Wuppertal, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Hyperspaces of (Sub-)Odometers
+                                </h3>
+                                <p class="talk-event">
+                                    Seminario de la Universidad Católica
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Pontificia Universidad Católica de Chile, Santiago de Chile, Chile</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2024</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">December</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    About Mean Equicontinuous Factor Maps
+                                </h3>
+                                <p class="talk-event">
+                                    Dyadisc 7: Brazilian; Chilean and French Interplay for Symbolic Dynamics
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Valparaíso, Chile</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">August</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    About Mean Equicontinuous Factor Maps
+                                </h3>
+                                <p class="talk-event">
+                                    Operseminar
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Friedrich-Schiller-Universität, Jena, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    About Mean Equicontinuous Factor Maps
+                                </h3>
+                                <p class="talk-event">
+                                    Operator Theoretic Aspects of Ergodic Theory 12
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Universität Leipzig, Leipzig, Germany</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Glas and Variations of the Fredrickson-Andersen Model
+                                </h3>
+                                <p class="talk-event">
+                                    Seminar of the Institute of Materials Physics in Space
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> German Aerospace Center (DLR) , Cologne, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2023</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">December</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    About Quasicrystals and Mathematical Modelling
+                                </h3>
+                                <p class="talk-event">
+                                    Seminar of the Institute of Materials Physics in Space
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> German Aerospace Center (DLR) , Cologne, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">March</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Pure Point Diffraction and Entropy Beyond the Euclidean Space
+                                </h3>
+                                <p class="talk-event">
+                                    Seminario de la Universidad Católica
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Pontificia Universidad Católica de Chile, Santiago de Chile, Chile</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">March</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Mean Equicontinuity Beyond Minimality
+                                </h3>
+                                <p class="talk-event">
+                                    Seminario de Sistemas Dinámicos de Santiago
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Bergische Universität, Santiago de Chile, Chile</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2022</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">October</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Mean Equicontinuity Beyond Minimality
+                                </h3>
+                                <p class="talk-event">
+                                    Operator Theoretic Aspects of Ergodic Theory 10
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Christian-Albrechts-University, Kiel, Germany</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">September</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Pure Point Diffraction and Entropy Beyond the Euclidean Space
+                                </h3>
+                                <p class="talk-event">
+                                    Almost Periodicity in Aperiodic Order
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Banff International Research Station, Banff, Canada</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">August</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Pure Point Diffraction and Entropy Beyond the Euclidean Space
+                                </h3>
+                                <p class="talk-event">
+                                    Oberseminar
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Max Planck Institute for Mathematics, Bonn, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">July</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Pure Point Diffraction and Entropy Beyond the Euclidean Space
+                                </h3>
+                                <p class="talk-event">
+                                    36th Summer Topology Conference
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> University of Vienna, Vienna, Austria</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">May</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Pure Point Diffraction and Entropy Beyond the Euclidean Space
+                                </h3>
+                                <p class="talk-event">
+                                    Dynamics Seminar
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Christoph Richard</span>
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Friedrich-Alexander-Universität, Erlangen, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">February</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy Beyond Actions of Uniform Lattices
+                                </h3>
+                                <p class="talk-event">
+                                    Operator Theoretic Aspects of Ergodic Theory 9
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Bergische Universität, Wuppertal, Germany</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">February</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Pure Point Diffraction and Entropy Beyond the Euclidean Space
+                                </h3>
+                                <p class="talk-event">
+                                    Hyperbolic Dynamics Seminar (Federal University of Minas Gerais, Belo Horizonte, Brazil)
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Bernardo Carvalho</span>
+                                    
+                                    <span>Online</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2021</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">August</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy Beyond Actions of Uniform Lattices
+                                </h3>
+                                <p class="talk-event">
+                                    First Dynamical Systems Summer Meeting
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    <span>Polish Academy of Sciences</span>
+                                    <span><i class="fa-solid fa-map-pin"></i> Będlewo, Poland</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy Beyond Actions of Uniform Lattices
+                                </h3>
+                                <p class="talk-event">
+                                    Dynamics of (Semi-)Group Actions
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span>Online (University of Łódź, Łódź, Poland)</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy in the Context of Aperiodic Order
+                                </h3>
+                                <p class="talk-event">
+                                    9th Visegrád Conference on Dynamical Systems
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span>Online (Charles University, Prague, Czech Republic)</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">April</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy Beyond Actions of Uniform Lattices
+                                </h3>
+                                <p class="talk-event">
+                                    Workshop on Topological and Combinatorial Dynamics
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span>Online (Universitat de Barcelona, Barcelona, Spain)</span>
+                                    <span>Workshop</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2020</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">December</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy in the Context of Aperiodic Order
+                                </h3>
+                                <p class="talk-event">
+                                    IMPAN's Dynamical Systems Seminar (Warsaw, Poland)
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Yonatan Gutman</span>
+                                    <span>Polish Academy of Sciences</span>
+                                    <span>Online</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">November</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy in the Context of Aperiodic Order
+                                </h3>
+                                <p class="talk-event">
+                                    Oberseminar Dynamische Systeme (Universität Passau, Passau, Germany)
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Fabian Wirth and Dr. Jeremias Epperlein</span>
+                                    
+                                    <span>Online</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">November</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy in the Context of Aperiodic Order
+                                </h3>
+                                <p class="talk-event">
+                                    Dynamical Systems Seminar  (Jagiellonian University, Kraków, Poland)
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Dominik Kwietniak</span>
+                                    
+                                    <span>Online</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2019</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Some Comments on the Entropy of Delone Sets
+                                </h3>
+                                <p class="talk-event">
+                                    8th Visegrád Conference on Dynamical Systems
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Budapest University of Technology and Economics, Budapest, Hungary</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Some Comments on the Entropy of Delone Sets
+                                </h3>
+                                <p class="talk-event">
+                                    Conference on Dynamical Systems Celebrating Michal Misiurewicz's 70th Birthday
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Jagiellonian University, Kraków, Poland</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">October</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Order Continuity from a Topological Perspective
+                                </h3>
+                                <p class="talk-event">
+                                    Seminar (IPEST - Université de Carthage, Tunis, Tunisia)
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Mohamed Amine Ben Amor</span>
+                                    
+                                    <span>Online</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">January</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy Theory for Actions of Non-Discrete Groups and Delone Dynamical Systems
+                                </h3>
+                                <p class="talk-event">
+                                    Seminar
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Gerhard Keller</span>
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Friedrich-Alexander-Universität, Erlangen, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
+
+                <section class="talk-year-group">
+                    <h3 class="talk-year">2018</h3>
+                    <div class="talk-list">             
+                        
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">November</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Entropy Theory for Actions of Non-Discrete Groups and Delone Dynamical Systems
+                                </h3>
+                                <p class="talk-event">
+                                    Operator Theoretic Aspects of Ergodic Theory 7
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Christian-Albrechts-Universität, Kiel, Germany</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">July</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Monotonicity of Maximal Equicontinuous Factors and an Application to Toral Flows
+                                </h3>
+                                <p class="talk-event">
+                                    Seminar
+                                </p>
+                                <div class="talk-tags">
+                                    <span>Invited by Prof. Dr. Rainer Nagel</span>
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Eberhard Karls Universität, Tübingen, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">July</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Monotonicity of Maximal Equicontinuous Factors and an Application to Toral Flows
+                                </h3>
+                                <p class="talk-event">
+                                    Jena-Leipzig Seminar on Geometry and Dynamics
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Friedrich-Schiller-Universität, Jena, Germany</span>
+                                    <span>Seminar</span>
+                                </div>
+                            </div>
+                        </article>
+                            
+                        
+                        <article class="talk-item">
+                            <p class="talk-date">June</p>
+                            <div class="talk-details">
+                                <h3 class="talk-title">
+                                    Monotonicity of Maximal Equicontinuous Factors and an Application to Toral Flows
+                                </h3>
+                                <p class="talk-event">
+                                    Czech-Slovak Workshop on Dynamical Systems 2018
+                                </p>
+                                <div class="talk-tags">
+                                    
+                                    
+                                    <span><i class="fa-solid fa-map-pin"></i> Matej Bel University, Banská Bystrica, Slovakia</span>
+                                    <span>Conference</span>
+                                </div>
+                            </div>
+                        </article>
+    
+                    </div>
+                </section>
