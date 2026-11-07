@@ -227,9 +227,11 @@ p {
     top: 105px;
 }
 
+
 .profile {
     text-align: left;
 }
+
 
 .profile-image {
     width: 150px;
@@ -249,6 +251,7 @@ p {
     box-shadow: 0 8px 24px rgba(32, 39, 45, 0.12);
 }
 
+
 .profile-image img {
     display: block;
 
@@ -258,7 +261,6 @@ p {
     object-fit: cover;
     object-position: center;
 }
-
 
 
 /* =========================================
@@ -430,12 +432,9 @@ p {
 }
 
 
-
-
 /* =========================================
    8. Publications
 ========================================= */
-
 
 .dissertation-list {
     list-style: none;
@@ -582,7 +581,6 @@ p {
 }
 
 
-
 /* =========================================
    9. Footer
 ========================================= */
@@ -602,6 +600,7 @@ p {
     margin-bottom: 5px;
 }
 
+
 .footer-link {
     margin-right: 30px;
 }
@@ -610,6 +609,8 @@ p {
 /* =========================================
    10. Responsive design
 ========================================= */
+
+/* Tablets */
 
 @media (max-width: 900px) {
 
@@ -623,16 +624,20 @@ p {
     .profile-image {
         width: 140px;
         height: 140px;
+
         border-radius: 50%;
         overflow: hidden;
+
         margin-bottom: 20px;
     }
 
     .profile-image img {
         width: 100%;
         height: 100%;
+
         object-fit: cover;
         object-position: center;
+
         display: block;
     }
 
@@ -643,7 +648,11 @@ p {
 }
 
 
+/* Smartphones */
+
 @media (max-width: 700px) {
+
+    /* Header and navigation */
 
     .header-inner {
         padding: 0 22px;
@@ -683,23 +692,34 @@ p {
         display: none;
     }
 
+
+    /* Page layout */
+
     .page-layout {
         display: flex;
         flex-direction: column;
 
-        gap: 48px;
+        gap: 24px;
 
-        padding: 40px 22px 24px;
+        padding: 24px 22px 24px;
     }
+
+
+    /* Sidebar: normal document flow */
 
     .sidebar {
-        position: sticky;
-        top: 0;
-        align-self: start;
+        position: static;
 
-        height: 100vh;
-        overflow-y: auto;
+        align-self: auto;
+
+        width: 100%;
+        height: auto;
+
+        overflow: visible;
     }
+
+
+    /* Profile */
 
     .profile {
         display: grid;
@@ -731,155 +751,70 @@ p {
 
     .profile-description {
         font-size: 0.85rem;
+        line-height: 1.6;
+
         margin-bottom: 0;
     }
 
+
+    /* Profile links */
+
     .profile-links {
+        display: flex;
+
         grid-column: 1 / -1;
 
         flex-direction: row;
         flex-wrap: wrap;
 
-        gap: 18px;
+        gap: 12px 20px;
 
-        margin-top: 20px;
+        margin-top: 12px;
     }
 
     .profile-links a {
         font-size: 0.85rem;
     }
 
+
+    /* Main content */
+
     .content-section {
-        padding-bottom: 40px;
-        margin-bottom: 40px;
+        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
 
     h2 {
         font-size: 1.75rem;
+        margin-bottom: 1rem;
     }
 
     .intro {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        line-height: 1.7;
+
+        text-align: left;
     }
+
+
+    /* CV timeline */
 
     .timeline-item {
         grid-template-columns: 1fr;
         gap: 5px;
     }
 
-}
 
+    /* Talks */
 
-@media (max-width: 420px) {
-
-    .profile {
-        grid-template-columns: 72px minmax(0, 1fr);
-        column-gap: 14px;
+    .talk-year {
+        margin-top: 24px;
     }
 
-    .profile-image {
-        width: 72px;
-        height: 72px;
-
-        font-size: 1.5rem;
-    }
-
-    .profile-name {
-        font-size: 1.2rem;
-    }
-
-    .project {
-        grid-template-columns: 28px minmax(0, 1fr);
-        gap: 12px;
-    }
-
-}
-
-
-/* =========================================
-   11. Talks
-========================================= */
-
-.talk-year {
-    margin: 44px 0 0;
-}
-
-.talk-year-heading {
-    font-size: 1.3rem;
-    font-weight: 650;
-    margin-bottom: 8px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--color-border);
-}
-
-.talk-list {
-    margin: 0;
-}
-
-.talk-item {
-    display: grid;
-    grid-template-columns: 76px minmax(0, 1fr);
-    gap: 20px;
-    padding: 22px 0;
-    border-bottom: 1px solid var(--color-border);
-}
-
-.talk-item:last-child {
-    border-bottom: none;
-}
-
-.talk-date {
-    color: var(--color-muted);
-    font-size: 0.85rem;
-    font-weight: 600;
-    font-variant-numeric: tabular-nums;
-    padding-top: 3px;
-}
-
-.talk-heading {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 8px 12px;
-}
-
-.talk-title {
-    font-size: 1.05rem;
-    margin-bottom: 5px;
-}
-
-.talk-event {
-    color: var(--color-muted);
-    font-size: 0.9rem;
-    line-height: 1.7;
-    margin: 0;
-}
-
-.talk-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-
-    margin: 18px 0;
-}
-
-
-.talk-tags span {
-    background: var(--color-accent-light);
-    color: #28666a;
-
-    padding: 4px 10px;
-
-    border-radius: 4px;
-
-    font-size: 0.75rem;
-    font-weight: 600;
-}
-
-@media (max-width: 700px) {
     .talk-item {
         grid-template-columns: 1fr;
         gap: 5px;
+
         padding: 20px 0;
     }
 
@@ -899,4 +834,156 @@ p {
     .talk-venue {
         font-size: 0.85rem;
     }
+
 }
+
+
+/* Very small smartphones */
+
+@media (max-width: 420px) {
+
+    .header-inner {
+        padding: 0 16px;
+    }
+
+    .page-layout {
+        padding: 20px 16px 24px;
+        gap: 20px;
+    }
+
+    .profile {
+        grid-template-columns: 72px minmax(0, 1fr);
+        column-gap: 14px;
+    }
+
+    .profile-image {
+        width: 72px;
+        height: 72px;
+
+        font-size: 1.5rem;
+    }
+
+    .profile-name {
+        font-size: 1.2rem;
+    }
+
+    .profile-description {
+        font-size: 0.82rem;
+    }
+
+    .profile-links {
+        gap: 10px 16px;
+    }
+
+    .project {
+        grid-template-columns: 28px minmax(0, 1fr);
+        gap: 12px;
+    }
+
+}
+
+
+/* =========================================
+   11. Talks
+========================================= */
+
+.talk-year {
+    margin: 44px 0 0;
+}
+
+
+.talk-year-heading {
+    font-size: 1.3rem;
+    font-weight: 650;
+
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+
+.talk-list {
+    margin: 0;
+}
+
+
+.talk-item {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr);
+
+    gap: 20px;
+
+    padding: 22px 0;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+
+.talk-item:last-child {
+    border-bottom: none;
+}
+
+
+.talk-date {
+    color: var(--color-muted);
+
+    font-size: 0.85rem;
+    font-weight: 600;
+
+    font-variant-numeric: tabular-nums;
+
+    padding-top: 3px;
+}
+
+
+.talk-heading {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: baseline;
+
+    gap: 8px 12px;
+}
+
+
+.talk-title {
+    font-size: 1.05rem;
+    margin-bottom: 5px;
+}
+
+
+.talk-event {
+    color: var(--color-muted);
+
+    font-size: 0.9rem;
+    line-height: 1.7;
+
+    margin: 0;
+}
+
+
+.talk-tags {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin: 18px 0;
+}
+
+
+.talk-tags span {
+    background: var(--color-accent-light);
+    color: #28666a;
+
+    padding: 4px 10px;
+
+    border-radius: 4px;
+
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+
+/* Mobile talk styles are defined in the responsive section above. */
