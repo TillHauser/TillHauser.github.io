@@ -1,80 +1,59 @@
-
 /* =========================================
    1. Global settings
 ========================================= */
 
 :root {
-    --color-background: #ffffff;
+    --color-background: #fff;
     --color-surface: #f6f7f8;
     --color-header: #20272d;
-
     --color-text: #303840;
     --color-muted: #6b747d;
     --color-heading: #20272d;
-
     --color-accent: #287d83;
     --color-accent-light: #e7f2f2;
-
     --color-border: #e3e7e9;
 
-    --font-main:
-        "Segoe UI",
-        "Helvetica Neue",
-        Arial,
-        sans-serif;
+    --font-main: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
     --max-width: 1180px;
     --sidebar-width: 270px;
-
     --transition: 0.2s ease;
 }
-
 
 * {
     box-sizing: border-box;
 }
-
 
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 90px;
 }
 
-
 body {
     margin: 0;
     background: var(--color-background);
     color: var(--color-text);
-
     font-family: var(--font-main);
     font-size: 16px;
     line-height: 1.8;
-
     -webkit-font-smoothing: antialiased;
 }
-
 
 a {
     color: var(--color-accent);
     text-decoration: none;
-
     transition: color var(--transition);
 }
-
 
 a:hover {
     color: #185e63;
 }
 
-
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     color: var(--color-heading);
     line-height: 1.3;
     margin-top: 0;
 }
-
 
 h2 {
     font-size: 2rem;
@@ -83,13 +62,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-
 h3 {
     font-size: 1.2rem;
     font-weight: 650;
     margin-bottom: 0.5rem;
 }
-
 
 p {
     margin-top: 0;
@@ -105,39 +82,31 @@ p {
     position: sticky;
     top: 0;
     z-index: 100;
-
     background: var(--color-header);
-    color: #ffffff;
-
+    color: #fff;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
-
 
 .header-inner {
     max-width: var(--max-width);
     min-height: 66px;
-
     margin: 0 auto;
     padding: 0 32px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-
 .site-title {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.05rem;
     font-weight: 700;
     letter-spacing: -0.02em;
 }
 
-
 .site-title:hover {
     color: #b9dfe0;
 }
-
 
 .main-navigation {
     display: flex;
@@ -145,58 +114,43 @@ p {
     gap: 28px;
 }
 
-
 .nav-link {
+    position: relative;
     color: #c5cbd0;
     font-size: 0.9rem;
     font-weight: 500;
-
     padding: 22px 0;
-
-    position: relative;
 }
-
 
 .nav-link:hover,
 .nav-link.active {
-    color: #ffffff;
+    color: #fff;
 }
-
 
 .nav-link.active::after {
     content: "";
-
     position: absolute;
     bottom: 12px;
     left: 0;
-
     width: 100%;
     height: 2px;
-
     background: var(--color-accent);
 }
 
-
 .menu-toggle {
     display: none;
-
     background: transparent;
     border: none;
-
     padding: 8px;
     cursor: pointer;
 }
 
-
 .menu-toggle span {
     display: block;
-
     width: 23px;
     height: 2px;
-
     margin: 5px 0;
-
-    background: #ffffff;
+    background: #fff;
 }
 
 
@@ -206,20 +160,49 @@ p {
 
 .page-layout {
     max-width: var(--max-width);
-
     margin: 0 auto;
     padding: 64px 32px 40px;
-
     display: grid;
     grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
-
     gap: 72px;
     align-items: start;
 }
 
+.main-content {
+    min-width: 0;
+}
+
+.content-section {
+    padding-bottom: 56px;
+    margin-bottom: 56px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.content-section:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.eyebrow {
+    color: var(--color-accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.intro {
+    color: #46515a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: justify;
+}
+
 
 /* =========================================
-   4. Sidebar
+   4. Sidebar and profile
 ========================================= */
 
 .sidebar {
@@ -227,148 +210,79 @@ p {
     top: 105px;
 }
 
-
 .profile {
     text-align: left;
 }
 
-
 .profile-image {
     width: 150px;
     height: 150px;
-
     margin-bottom: 24px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 50%;
     overflow: hidden;
-
     background: linear-gradient(135deg, #263840, #497b80);
-
     box-shadow: 0 8px 24px rgba(32, 39, 45, 0.12);
 }
 
-
 .profile-image img {
     display: block;
-
     width: 100%;
     height: 100%;
-
     object-fit: cover;
     object-position: center;
 }
 
 
 /* =========================================
-   5. Main content
-========================================= */
-
-.main-content {
-    min-width: 0;
-}
-
-
-.content-section {
-    padding-bottom: 56px;
-    margin-bottom: 56px;
-
-    border-bottom: 1px solid var(--color-border);
-}
-
-
-.content-section:last-of-type {
-    border-bottom: none;
-    margin-bottom: 0;
-}
-
-
-.eyebrow {
-    color: var(--color-accent);
-
-    font-size: 0.72rem;
-    font-weight: 700;
-
-    letter-spacing: 0.13em;
-    line-height: 1.5;
-
-    margin-bottom: 14px;
-}
-
-
-.intro {
-    color: #46515a;
-
-    font-size: 1rem;
-    text-align: justify;
-    line-height: 1.8;
-
-    font-weight: 400;
-}
-
-
-/* =========================================
-   6. Projects
+   5. Projects
 ========================================= */
 
 .project {
     display: grid;
     grid-template-columns: 42px minmax(0, 1fr);
-
     gap: 18px;
-
     padding: 28px 0;
-
     border-top: 1px solid var(--color-border);
 }
 
-
 .project-number {
     color: #a0a9af;
-
     font-size: 0.82rem;
     font-weight: 600;
-
     padding-top: 4px;
 }
-
 
 .project-content p {
     color: var(--color-muted);
     font-size: 0.95rem;
 }
 
-
-.project-tags {
+.project-tags,
+.talk-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-
     margin: 18px 0;
 }
 
-
-.project-tags span {
+.project-tags span,
+.talk-tags span {
     background: var(--color-accent-light);
     color: #28666a;
-
     padding: 4px 10px;
-
     border-radius: 4px;
-
     font-size: 0.75rem;
     font-weight: 600;
 }
 
-
-.project-link {
-    font-size: 0.9rem;
+.project-link,
+.text-link {
+    font-size: 0.92rem;
     font-weight: 600;
 }
-
 
 .project-link span,
 .text-link span {
@@ -377,63 +291,214 @@ p {
 
 
 /* =========================================
-   7. CV timeline
+   6. CV
 ========================================= */
+
+/* Timeline */
 
 .timeline {
     margin: 32px 0;
 }
 
-
 .timeline-item {
     display: grid;
     grid-template-columns: 125px minmax(0, 1fr);
-
     gap: 20px;
-
     padding-bottom: 30px;
-
     position: relative;
 }
-
 
 .timeline-item:last-child {
     padding-bottom: 0;
 }
 
-
-.timeline-date {
+.timeline-date,
+.cv-item-date {
     color: var(--color-muted);
-
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
-
-    padding-top: 3px;
+    line-height: 1.6;
+    font-variant-numeric: tabular-nums;
 }
 
+.timeline-date {
+    padding-top: 3px;
+}
 
 .timeline-item h3 {
     font-size: 1.05rem;
     margin-bottom: 5px;
 }
 
-
-.timeline-item p {
+.timeline-item p,
+.cv-item-description {
     color: var(--color-muted);
     font-size: 0.9rem;
-
-    margin-bottom: 0;
+    line-height: 1.75;
+    margin: 0;
 }
 
+/* CV headings */
 
-.text-link {
+.cv-subsection {
+    margin-top: 42px;
+}
+
+.cv-subsection-heading,
+.cv-category > h3 {
+    font-size: 1.3rem;
+    font-weight: 650;
+    letter-spacing: -0.025em;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.cv-category {
+    margin-top: 48px;
+}
+
+/* Languages */
+
+.language-list {
+    margin: 0;
+}
+
+.language-item {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 20px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.language-item:last-child {
+    border-bottom: none;
+}
+
+.language-name {
+    color: var(--color-heading);
+    font-size: 0.95rem;
     font-weight: 600;
+}
+
+.language-level {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+/* CV entries */
+
+.cv-list {
+    margin: 0;
+}
+
+.cv-item {
+    display: grid;
+    grid-template-columns: 140px minmax(0, 1fr);
+    gap: 24px;
+    position: relative;
+    padding-bottom: 34px;
+}
+
+.cv-item:last-child {
+    padding-bottom: 0;
+}
+
+.cv-item-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-top: 3px;
+}
+
+.cv-date-period {
+    font: inherit;
+}
+
+.cv-country {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-accent);
+    font-size: 0.72rem;
+    font-weight: 650;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+}
+
+.cv-country i {
+    font-size: 0.7rem;
+}
+
+.cv-item-title {
+    display: block;
+    color: var(--color-heading);
+    font-size: 1.02rem;
+    font-weight: 650;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+/* Featured and secondary entries */
+
+.cv-item-featured {
+    padding: 1rem 1.1rem;
+    margin-bottom: 1rem;
+    background: var(--color-surface);
+    border-radius: 4px;
+}
+
+.cv-item-featured .cv-item-title {
+    font-weight: 600;
+}
+
+.cv-item-secondary {
+    padding: 0.45rem 0;
+    margin-bottom: 0.35rem;
+}
+
+.cv-item-secondary .cv-item-title {
+    font-weight: 500;
+}
+
+.cv-item-secondary .cv-item-description {
     font-size: 0.92rem;
+}
+
+/* International Experiences: consistent indentation */
+
+.cv-list-international .cv-item-featured,
+.cv-list-international .cv-item-secondary {
+    padding: 1rem 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.cv-list-international .cv-item-secondary {
+    background: transparent;
+}
+
+/* CV introductory text */
+
+.cv-intro {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    line-height: 1.75;
+    margin: -8px 0 28px;
+}
+
+/* Remove CV timeline markers */
+
+.cv-list::before,
+.cv-item::before {
+    display: none;
 }
 
 
 /* =========================================
-   8. Publications
+   7. Publications
 ========================================= */
 
 .dissertation-list {
@@ -441,127 +506,354 @@ p {
     padding-left: 42px;
 }
 
-
 .publication-group {
     margin-top: 42px;
 }
 
-
 .publication-heading {
     font-size: 1.3rem;
     font-weight: 650;
-
     margin-bottom: 24px;
     padding-bottom: 12px;
-
     border-bottom: 1px solid var(--color-border);
 }
 
-
 .publication-list {
     list-style: none;
-
     counter-reset: publication-counter;
-
     margin: 0;
     padding: 0;
 }
-
 
 .publication-list[start="11"] {
     counter-reset: publication-counter 10;
 }
 
-
 .publication-list li {
     counter-increment: publication-counter;
-
     position: relative;
-
     padding: 0 0 26px 42px;
     margin-bottom: 26px;
-
     border-bottom: 1px solid var(--color-border);
 }
 
-
 .publication-list li::before {
     content: "[" counter(publication-counter) "]";
-
     position: absolute;
     left: 0;
     top: 1px;
-
     color: var(--color-muted);
-
     font-size: 0.85rem;
     font-weight: 600;
-
     font-variant-numeric: tabular-nums;
 }
-
 
 .publication-list li:last-child {
     border-bottom: none;
 }
 
-
 .authors {
     display: block;
-
     color: var(--color-text);
-
     font-size: 0.92rem;
     line-height: 1.7;
 }
 
-
 .publication-title {
     display: inline;
-
     color: var(--color-heading);
-
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.7;
 }
 
-
 .publication-title:hover {
     color: var(--color-accent);
 }
 
-
 .journal {
     display: block;
-
     color: var(--color-muted);
-
     font-size: 0.9rem;
     line-height: 1.7;
-
     margin-top: 3px;
 }
 
-
 .doi {
     display: inline-block;
-
     color: var(--color-accent);
-
     font-size: 0.78rem;
     font-weight: 700;
-
     margin-top: 7px;
 }
-
 
 .doi:hover {
     text-decoration: underline;
 }
 
 
+/* =========================================
+   8. Talks
+========================================= */
+
+.talk-year {
+    margin: 44px 0 0;
+}
+
+.talk-year-heading {
+    font-size: 1.3rem;
+    font-weight: 650;
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.talk-list {
+    margin: 0;
+}
+
+.talk-item {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 20px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.talk-item:last-child {
+    border-bottom: none;
+}
+
+.talk-date {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    padding-top: 3px;
+}
+
+.talk-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px 12px;
+}
+
+.talk-title {
+    font-size: 1.05rem;
+    margin-bottom: 5px;
+}
+
+.talk-event {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* =========================================
+   9. Footer
+========================================= */
+
+.site-footer {
+    margin-top: 32px;
+    padding-top: 28px;
+    border-top: 1px solid var(--color-border);
+    color: var(--color-muted);
+    font-size: 0.8rem;
+}
+
+.site-footer p {
+    margin-bottom: 5px;
+}
+
+.footer-link {
+    margin-right: 30px;
+}
+
+
+/* =========================================
+   10. Responsive design
+========================================= */
+
+/* Tablets */
+
+@media (max-width: 900px) {
+    .page-layout {
+        grid-template-columns: 220px minmax(0, 1fr);
+        gap: 42px;
+        padding: 48px 24px 32px;
+    }
+
+    .profile-image {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+    .main-navigation {
+        gap: 18px;
+    }
+}
+
+/* Smartphones */
+
 @media (max-width: 700px) {
+    .header-inner {
+        padding: 0 22px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-navigation {
+        display: none;
+        position: absolute;
+        top: 66px;
+        left: 0;
+        right: 0;
+        background: var(--color-header);
+        padding: 12px 22px 22px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .main-navigation.open {
+        display: flex;
+    }
+
+    .nav-link {
+        padding: 12px 0;
+    }
+
+    .nav-link.active::after {
+        display: none;
+    }
+
+    .page-layout {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 22px;
+    }
+
+    .sidebar {
+        position: static;
+        align-self: auto;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+
+    .profile {
+        display: grid;
+        grid-template-columns: 90px minmax(0, 1fr);
+        column-gap: 20px;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 90px;
+        height: 90px;
+        grid-row: span 3;
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .profile-name {
+        font-size: 1.35rem;
+        margin-bottom: 2px;
+    }
+
+    .profile-role {
+        margin-bottom: 4px;
+    }
+
+    .profile-description {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+
+    .profile-links {
+        display: flex;
+        grid-column: 1 / -1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        margin-top: 12px;
+    }
+
+    .profile-links a {
+        font-size: 0.85rem;
+    }
+
+    .content-section {
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    .cv-subsection,
+    .cv-category {
+        margin-top: 32px;
+    }
+
+    .cv-subsection-heading,
+    .cv-category > h3 {
+        font-size: 1.2rem;
+        margin-bottom: 24px;
+    }
+
+    .language-item {
+        grid-template-columns: 110px minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .cv-item {
+        grid-template-columns: 1fr;
+        gap: 7px;
+        padding-left: 0;
+        padding-bottom: 28px;
+    }
+
+    .cv-item-date {
+        font-size: 0.78rem;
+        padding-top: 0;
+    }
+
+    .cv-item-title {
+        font-size: 0.98rem;
+    }
+
+    .cv-item-description {
+        font-size: 0.87rem;
+    }
+
+    .timeline-item {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    /* Keep international entries aligned on mobile */
+
+    .cv-list-international .cv-item {
+        padding: 0.85rem 1rem;
+        margin-bottom: 0.75rem;
+    }
 
     .publication-list li {
         padding-left: 34px;
@@ -578,235 +870,6 @@ p {
         font-size: 0.85rem;
     }
 
-}
-
-
-/* =========================================
-   9. Footer
-========================================= */
-
-.site-footer {
-    margin-top: 32px;
-    padding-top: 28px;
-
-    border-top: 1px solid var(--color-border);
-
-    color: var(--color-muted);
-    font-size: 0.8rem;
-}
-
-
-.site-footer p {
-    margin-bottom: 5px;
-}
-
-
-.footer-link {
-    margin-right: 30px;
-}
-
-
-/* =========================================
-   10. Responsive design
-========================================= */
-
-/* Tablets */
-
-@media (max-width: 900px) {
-
-    .page-layout {
-        grid-template-columns: 220px minmax(0, 1fr);
-        gap: 42px;
-
-        padding: 48px 24px 32px;
-    }
-
-    .profile-image {
-        width: 140px;
-        height: 140px;
-
-        border-radius: 50%;
-        overflow: hidden;
-
-        margin-bottom: 20px;
-    }
-
-    .profile-image img {
-        width: 100%;
-        height: 100%;
-
-        object-fit: cover;
-        object-position: center;
-
-        display: block;
-    }
-
-    .main-navigation {
-        gap: 18px;
-    }
-
-}
-
-
-/* Smartphones */
-
-@media (max-width: 700px) {
-
-    /* Header and navigation */
-
-    .header-inner {
-        padding: 0 22px;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    .main-navigation {
-        display: none;
-
-        position: absolute;
-        top: 66px;
-        left: 0;
-        right: 0;
-
-        background: var(--color-header);
-
-        padding: 12px 22px 22px;
-
-        flex-direction: column;
-        align-items: stretch;
-
-        gap: 0;
-    }
-
-    .main-navigation.open {
-        display: flex;
-    }
-
-    .nav-link {
-        padding: 12px 0;
-    }
-
-    .nav-link.active::after {
-        display: none;
-    }
-
-
-    /* Page layout */
-
-    .page-layout {
-        display: flex;
-        flex-direction: column;
-
-        gap: 24px;
-
-        padding: 24px 22px 24px;
-    }
-
-
-    /* Sidebar: normal document flow */
-
-    .sidebar {
-        position: static;
-
-        align-self: auto;
-
-        width: 100%;
-        height: auto;
-
-        overflow: visible;
-    }
-
-
-    /* Profile */
-
-    .profile {
-        display: grid;
-        grid-template-columns: 90px minmax(0, 1fr);
-
-        column-gap: 20px;
-        align-items: center;
-    }
-
-    .profile-image {
-        width: 90px;
-        height: 90px;
-
-        grid-row: span 3;
-
-        margin: 0;
-
-        font-size: 1.8rem;
-    }
-
-    .profile-name {
-        font-size: 1.35rem;
-        margin-bottom: 2px;
-    }
-
-    .profile-role {
-        margin-bottom: 4px;
-    }
-
-    .profile-description {
-        font-size: 0.85rem;
-        line-height: 1.6;
-
-        margin-bottom: 0;
-    }
-
-
-    /* Profile links */
-
-    .profile-links {
-        display: flex;
-
-        grid-column: 1 / -1;
-
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        gap: 12px 20px;
-
-        margin-top: 12px;
-    }
-
-    .profile-links a {
-        font-size: 0.85rem;
-    }
-
-
-    /* Main content */
-
-    .content-section {
-        padding-bottom: 32px;
-        margin-bottom: 32px;
-    }
-
-    h2 {
-        font-size: 1.75rem;
-        margin-bottom: 1rem;
-    }
-
-    .intro {
-        font-size: 1rem;
-        line-height: 1.7;
-
-        text-align: left;
-    }
-
-
-    /* CV timeline */
-
-    .timeline-item {
-        grid-template-columns: 1fr;
-        gap: 5px;
-    }
-
-
-    /* Talks */
-
     .talk-year {
         margin-top: 24px;
     }
@@ -814,7 +877,6 @@ p {
     .talk-item {
         grid-template-columns: 1fr;
         gap: 5px;
-
         padding: 20px 0;
     }
 
@@ -834,14 +896,11 @@ p {
     .talk-venue {
         font-size: 0.85rem;
     }
-
 }
-
 
 /* Very small smartphones */
 
 @media (max-width: 420px) {
-
     .header-inner {
         padding: 0 16px;
     }
@@ -859,7 +918,6 @@ p {
     .profile-image {
         width: 72px;
         height: 72px;
-
         font-size: 1.5rem;
     }
 
@@ -879,111 +937,4 @@ p {
         grid-template-columns: 28px minmax(0, 1fr);
         gap: 12px;
     }
-
 }
-
-
-/* =========================================
-   11. Talks
-========================================= */
-
-.talk-year {
-    margin: 44px 0 0;
-}
-
-
-.talk-year-heading {
-    font-size: 1.3rem;
-    font-weight: 650;
-
-    margin-bottom: 8px;
-    padding-bottom: 12px;
-
-    border-bottom: 1px solid var(--color-border);
-}
-
-
-.talk-list {
-    margin: 0;
-}
-
-
-.talk-item {
-    display: grid;
-    grid-template-columns: 76px minmax(0, 1fr);
-
-    gap: 20px;
-
-    padding: 22px 0;
-
-    border-bottom: 1px solid var(--color-border);
-}
-
-
-.talk-item:last-child {
-    border-bottom: none;
-}
-
-
-.talk-date {
-    color: var(--color-muted);
-
-    font-size: 0.85rem;
-    font-weight: 600;
-
-    font-variant-numeric: tabular-nums;
-
-    padding-top: 3px;
-}
-
-
-.talk-heading {
-    display: flex;
-    flex-wrap: wrap;
-
-    align-items: baseline;
-
-    gap: 8px 12px;
-}
-
-
-.talk-title {
-    font-size: 1.05rem;
-    margin-bottom: 5px;
-}
-
-
-.talk-event {
-    color: var(--color-muted);
-
-    font-size: 0.9rem;
-    line-height: 1.7;
-
-    margin: 0;
-}
-
-
-.talk-tags {
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 8px;
-
-    margin: 18px 0;
-}
-
-
-.talk-tags span {
-    background: var(--color-accent-light);
-    color: #28666a;
-
-    padding: 4px 10px;
-
-    border-radius: 4px;
-
-    font-size: 0.75rem;
-    font-weight: 600;
-}
-
-
-/* Mobile talk styles are defined in the responsive section above. */
