@@ -938,3 +938,112 @@ p {
         gap: 12px;
     }
 }
+
+
+
+
+/* =========================================
+   11. Teaching Experience
+========================================= */
+
+/* Institution headings */
+
+.teaching-institution {
+    margin-top: 30px;
+}
+
+.teaching-institution:first-of-type {
+    margin-top: 0;
+}
+
+.teaching-institution-heading {
+    color: var(--color-heading);
+    font-size: 1rem;
+    font-weight: 650;
+    letter-spacing: -0.015em;
+    margin-bottom: 16px;
+}
+
+/* Teaching entries */
+
+.cv-list-teaching .cv-item-featured,
+.cv-list-teaching .cv-item-secondary {
+    padding: 1rem 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.cv-list-teaching .cv-item-featured {
+    background: var(--color-surface);
+    border-radius: 4px;
+}
+
+.cv-list-teaching .cv-item-secondary {
+    background: transparent;
+}
+
+.cv-list-teaching .cv-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Role labels */
+
+.cv-role-label {
+    display: inline-block;
+    color: var(--color-accent);
+    background: var(--color-accent-light);
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 0.68rem;
+    font-weight: 650;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+}
+
+/* Additional teaching responsibilities */
+
+.cv-detail-list {
+    color: var(--color-muted);
+    font-size: 0.86rem;
+    line-height: 1.7;
+    margin: 10px 0 0;
+    padding-left: 18px;
+}
+
+.cv-detail-list li {
+    padding-left: 2px;
+    margin-bottom: 3px;
+}
+
+.cv-detail-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 700px) {
+
+    .teaching-institution {
+        margin-top: 26px;
+    }
+
+    .teaching-institution-heading {
+        font-size: 0.98rem;
+        margin-bottom: 14px;
+    }
+
+    .cv-list-teaching .cv-item {
+        padding: 0.85rem 1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .cv-list-teaching .cv-item-date {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .cv-detail-list {
+        font-size: 0.84rem;
+    }
+}
